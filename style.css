@@ -309,11 +309,13 @@ section.show {
     gap: 12px;
   }
 
-  .card {
+ .card {
     width: 90%;
-    max-width: 280px;
-    margin: auto;
-  }
+    max-width: 260px;
+    margin: 8px auto;
+    padding: 14px;
+}
+
 
   /* PROJECTS */
   .project,
