@@ -237,97 +237,99 @@ section.show {
 
 }
 
-
-/* =========================
-   MOBILE RESPONSIVE FIX
-   ========================= */
+/* =====================================
+   MOBILE RESPONSIVE DESIGN
+   Clean, simple, maintainable
+   ===================================== */
 
 @media (max-width: 768px) {
 
-    /* NAVBAR */
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px 20px;
-        height: auto;
-    }
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    height: auto;
+  }
 
-    .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 10px;
-    }
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
 
-    .nav-links a {
-        margin: 0;
-        font-size: 14px;
-    }
+  .nav-links a {
+    margin: 0;
+    font-size: 14px;
+  }
 
-    /* HERO */
-    .hero {
-        padding: 40px 20px;
-        height: auto;
-    }
+  /* HERO */
+  .hero {
+    padding: 40px 20px;
+    height: auto;
+    text-align: center;
+  }
 
-    .profile-pic {
-        width: 110px;
-        height: 110px;
-    }
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
 
-    .hero h1 {
-        font-size: 22px;
-    }
+  .hero h1 {
+    font-size: 22px;
+  }
 
-    .hero p {
-        font-size: 14px;
-    }
+  .hero p {
+    font-size: 14px;
+  }
 
-    /* ABOUT */
-    #about {
-        padding: 20px;
-    }
+  /* ABOUT */
+  #about {
+    padding: 20px;
+  }
 
-    .about-card {
-        width: 100%;
-        margin: auto;
-        padding: 20px;
-    }
+  .about-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+  }
 
-    #about p {
-        font-size: 15px;
-        line-height: 1.7;
-    }
+  #about p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
 
-    /* SKILLS */
-    .card-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  /* SKILLS */
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 
-   .card {
+  .card {
     width: 90%;
-    max-width: 300px;
-    margin: 0 auto;
-}
+    max-width: 280px;
+    margin: auto;
+  }
 
-    /* PROJECTS */
-    .project {
-        width: 100%;
-        margin: auto;
-    }
+  /* PROJECTS */
+  .project,
+  .project-card {
+    width: 90%;
+    max-width: 320px;
+    margin: 0 auto 20px auto;
+  }
 
-    .project-card {
-        width: 100%;
-        margin: 0 auto 20px auto;
-    }
+  /* GENERAL SECTIONS */
+  section {
+    padding: 30px 20px;
+  }
 
-    /* SECTIONS GENERAL */
-    section {
-        padding: 30px 20px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
+  h2 {
+    font-size: 22px;
+    text-align: left;
+  }
 }
