@@ -25,6 +25,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    border: 3px solid red;   /* TEMP TEST */
 }
 
 
@@ -47,7 +48,7 @@ nav {
 
 /* HERO SECTION */
 .hero {
-    
+
     height: 80vh;
     background: linear-gradient(135deg, #1a73e8, #0052cc);
     color: white;
@@ -58,6 +59,10 @@ nav {
     text-align: center;
     padding: 20px;
 }
+.hero {
+    border: 3px solid blue;  /* TEMP TEST */
+}
+
 
 .hero-content {
     text-align: center;
