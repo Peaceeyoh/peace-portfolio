@@ -305,10 +305,11 @@ section.show {
         align-items: center;
     }
 
-    .card {
-        width: 100%;
-        max-width: 320px;
-    }
+   .card {
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+}
 
     /* PROJECTS */
     .project {
