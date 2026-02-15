@@ -103,6 +103,10 @@ section {
     max-width: 1000px;
     margin: auto;
 }
+#about {
+    max-width: 800px;
+    margin: auto;
+}
 
 h2 {
     margin-bottom: 20px;
