@@ -41,6 +41,7 @@ nav {
 
 /* HERO SECTION */
 .hero {
+    margin-top: 100px;
     height: 80vh;
     background: linear-gradient(135deg, #1a73e8, #0052cc);
     color: white;
