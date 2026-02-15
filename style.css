@@ -130,7 +130,6 @@ h2 {
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    align-content: center;
 }
 
 /* FOOTER */
@@ -236,4 +235,98 @@ section.show {
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     margin-top: 20px;
 
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE FIX
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+        height: auto;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .profile-pic {
+        width: 110px;
+        height: 110px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    /* ABOUT */
+    #about {
+        padding: 20px;
+    }
+
+    .about-card {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    #about p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* SKILLS */
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* PROJECTS */
+    .project {
+        width: 100%;
+        margin: auto;
+    }
+
+    .project-card {
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+
+    /* SECTIONS GENERAL */
+    section {
+        padding: 30px 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
 }
