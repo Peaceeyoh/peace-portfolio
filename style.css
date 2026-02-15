@@ -98,19 +98,10 @@ nav {
 
 /* SECTIONS */
 section {
-    padding: 20px 90px;
+    padding: 40px 90px;
     max-width: 1000px;
     margin: auto;
 }
-
-.about-card {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    margin-top: 20px;
-}
-
 
 h2 {
     margin-bottom: 20px;
@@ -234,5 +225,13 @@ section.show {
 }
 
 .connect-buttons {
+    margin-top: 20px;
+}
+
+.about-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     margin-top: 20px;
 }
