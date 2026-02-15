@@ -61,7 +61,6 @@ nav {
 }
 
 
-
 .hero-content {
     text-align: center;
 }
@@ -102,17 +101,6 @@ section {
     padding: 60px 80px;
     max-width: 1000px;
     margin: auto;
-}
-#about {
-    max-width: 750px;
-    margin: auto;
-}
-
-#about p {
-    text-align: left;
-    line-height: 1.9;
-    font-size: 17px;
-    color: #444;
 }
 
 h2 {
